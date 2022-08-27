@@ -21,7 +21,7 @@ h2 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(114, 113, 113);
+  background-color: #fb8c00;
   border-radius: 10px;
   height: 200px;
 }
@@ -31,7 +31,7 @@ h2 {
 }
 
 .category-btn:hover {
-  background-color: #FC1503 !important;
+  background-color: #fb8c00 !important;
   color: white !important;
 }
 

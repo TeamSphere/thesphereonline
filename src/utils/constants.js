@@ -15,23 +15,21 @@ import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 export const logo = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmd3pZAk6CoOUssIOT1WCKkexT7vto5_yr5OzTzIiDoA&s';
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
-  { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
-  { name: 'Music', icon: <MusicNoteIcon /> },
-  { name: 'Education', icon: <SchoolIcon />, },
-  { name: 'Podcast', icon: <GraphicEqIcon />, },
-  { name: 'Movie', icon: <OndemandVideoIcon />, },
-  { name: 'Gaming', icon: <SportsEsportsIcon />, },
-  { name: 'Live', icon: <LiveTvIcon />, },
-  { name: 'Sport', icon: <FitnessCenterIcon />, },
-  { name: 'Fashion', icon: <CheckroomIcon />, },
-  { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
-  { name: 'Comedy', icon: <TheaterComedyIcon />, },
-  { name: 'Gym', icon: <FitnessCenterIcon />, },
-  { name: 'Crypto', icon: <DeveloperModeIcon />, },
+  { name: 'All Education', icon: <HomeIcon />, },
+  { name: 'Philosophy', icon: <CodeIcon />, },
+  { name: 'Language Sciences', icon: <CodeIcon />, },
+  { name: 'Information Sciences', icon: <CodeIcon />, },
+  { name: 'Administrative Sciences', icon: <CodeIcon />, },
+  { name: 'Spirit Sciences', icon: <MusicNoteIcon /> },
+  { name: 'Arts', icon: <SchoolIcon />, },
+  { name: 'Moral Sciences', icon: <GraphicEqIcon />, },
+  { name: 'Human Sciences', icon: <OndemandVideoIcon />, },
+  { name: 'Practical Sciences', icon: <SportsEsportsIcon />, },
+  { name: 'Biological Sciennces', icon: <LiveTvIcon />, },
+  { name: 'Earth and Space Sciences', icon: <FitnessCenterIcon />, },
+  { name: 'Chemistry', icon: <CheckroomIcon />, },
+  { name: 'Physics', icon: <FaceRetouchingNaturalIcon />, },
+  { name: 'Mathematics', icon: <TheaterComedyIcon />, },
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
