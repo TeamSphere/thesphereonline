@@ -1,34 +1,42 @@
-import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import HomeIcon from '@mui/icons-material/Home';
 import CodeIcon from '@mui/icons-material/Code';
-import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
-import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
-import LiveTvIcon from '@mui/icons-material/LiveTv';
-import SchoolIcon from '@mui/icons-material/School';
-import FaceRetouchingNaturalIcon from '@mui/icons-material/FaceRetouchingNatural';
-import CheckroomIcon from '@mui/icons-material/Checkroom';
-import GraphicEqIcon from '@mui/icons-material/GraphicEq';
-import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
-import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
+
+
+// new Icons
+import PsychologyIcon from '@mui/icons-material/Psychology';
+import TranslateIcon from '@mui/icons-material/Translate';
+import ImportContactsIcon from '@mui/icons-material/ImportContacts';
+import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
+import SynagogueIcon from '@mui/icons-material/Synagogue';
+import ColorLensIcon from '@mui/icons-material/ColorLens';
+import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
+import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
+import BuildIcon from '@mui/icons-material/Build';
+import BiotechIcon from '@mui/icons-material/Biotech';
+import PublicIcon from '@mui/icons-material/Public';
+import ScienceIcon from '@mui/icons-material/Science';
+import AnimationIcon from '@mui/icons-material/Animation';
+import CalculateIcon from '@mui/icons-material/Calculate';
 
 export const logo = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmd3pZAk6CoOUssIOT1WCKkexT7vto5_yr5OzTzIiDoA&s';
 
 export const categories = [
   { name: 'All Education', icon: <HomeIcon />, },
-  { name: 'Philosophy', icon: <CodeIcon />, },
-  { name: 'Language Sciences', icon: <CodeIcon />, },
-  { name: 'Information Sciences', icon: <CodeIcon />, },
-  { name: 'Administrative Sciences', icon: <CodeIcon />, },
-  { name: 'Spirit Sciences', icon: <MusicNoteIcon /> },
-  { name: 'Arts', icon: <SchoolIcon />, },
-  { name: 'Moral Sciences', icon: <GraphicEqIcon />, },
-  { name: 'Human Sciences', icon: <OndemandVideoIcon />, },
-  { name: 'Practical Sciences', icon: <SportsEsportsIcon />, },
-  { name: 'Biological Sciennces', icon: <LiveTvIcon />, },
-  { name: 'Earth and Space Sciences', icon: <FitnessCenterIcon />, },
-  { name: 'Chemistry', icon: <CheckroomIcon />, },
-  { name: 'Physics', icon: <FaceRetouchingNaturalIcon />, },
-  { name: 'Mathematics', icon: <TheaterComedyIcon />, },
+  { name: 'Philosophy', icon: <PsychologyIcon />, },
+  { name: 'Language Sciences', icon: <TranslateIcon />, },
+  { name: 'Information Sciences', icon: <ImportContactsIcon />, },
+  { name: 'Administrative Sciences', icon: <AdminPanelSettingsIcon />, },
+  { name: 'Spirit Sciences', icon: <SynagogueIcon /> },
+  { name: 'Arts', icon: <ColorLensIcon />, },
+  { name: 'Moral Sciences', icon: <ThumbUpAltIcon />, },
+  { name: 'Human Sciences', icon: <EmojiPeopleIcon />, },
+  { name: 'Practical Sciences', icon: <BuildIcon />, },
+  { name: 'Biological Sciennces', icon: <BiotechIcon />, },
+  { name: 'Earth and Space Sciences', icon: <PublicIcon />, },
+  { name: 'Chemistry', icon: <ScienceIcon />, },
+  { name: 'Physics', icon: <AnimationIcon />, },
+  { name: 'Mathematics', icon: <CalculateIcon />, },
+  { name: 'Computer Science', icon: <CodeIcon />, },
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
