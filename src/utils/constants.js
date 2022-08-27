@@ -10,7 +10,6 @@ import CheckroomIcon from '@mui/icons-material/Checkroom';
 import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
-import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
 export const logo = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmd3pZAk6CoOUssIOT1WCKkexT7vto5_yr5OzTzIiDoA&s';
 
