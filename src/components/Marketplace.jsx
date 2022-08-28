@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 import { Box, Stack, Typography } from '@mui/material';
 
 import { fetchFromBlockchain } from '../utils/fetchFromBlockchain';
-import { Sidebar, Videos } from './';
+import { Sidebar, Nfts } from './';
 
 const Marketplace = () => {
 
   const [selectedCategory, setSelectedCategory] = useState('Education');
-  const [videos, setVideos] = useState([]);
+  const [nfts, setNfts] = useState([]);
 
   useEffect(()=> {
     fetchFromBlockchain(`search?part=snippet&q=${selectedCategory}`)
@@ -29,10 +29,10 @@ const Marketplace = () => {
 
       <Box p={2} sx={{ overflowY: 'auto', height: '90vh', flex: 2}}>
         <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: 'white' }}>
-          {selectedCategory} <span style={{ color: '#fb8c00'}}>NFTs</span>
+          {selectedCategory} <span style={{ color: '#7ae300'}}>NFTs</span>
         </Typography>
 
-        <Videos videos={videos}/>
+        <Nfts Nfts={nfts} />
       </Box>
     </Stack>
   )

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://youtube-v31.p.rapidapi.com';
+const BASE_URL = '  https://api.replicate.com/v1/predictions';
 
 const options = {
   url: BASE_URL,
@@ -10,6 +10,9 @@ const options = {
   headers: {
     'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
+  },
+  auth: {
+    Token: $REPLICATE_API_TOKEN
   }
 };
 
