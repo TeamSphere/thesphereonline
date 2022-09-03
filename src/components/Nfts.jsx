@@ -2,7 +2,7 @@ import { Stack, Box } from '@mui/material';
 
 import { VideoCard, ChannelCard } from './';
 
-const Videos = ({ videos, direction }) => {
+const Nfts = ({ videos, direction }) => {
   if(!videos?.length) return 'Loading...';
 
   return (
@@ -17,4 +17,4 @@ const Videos = ({ videos, direction }) => {
   )
 }
 
-export default Videos
+export default Nfts
