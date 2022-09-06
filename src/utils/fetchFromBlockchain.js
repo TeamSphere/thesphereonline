@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://youtube-v31.p.rapidapi.com';
+const BASE_URL = 'https://api.replicate.com/v1/predictions';
 
 const options = {
   url: BASE_URL,
@@ -19,7 +19,7 @@ axios.request(options).then(function (response) {
   //
 });
 
-export const fetchFromAPI = async (url) => {
+export const fetchFromBlockchain = async (url) => {
   const { data } = await axios.get(`${BASE_URL}/${url}`, options);
 
   return data;
